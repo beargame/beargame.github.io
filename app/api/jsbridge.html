@@ -1,0 +1,508 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>jsbridge | 小熊游戏平台文档</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-prism/prism.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../../game/intro.html" />
+    
+    
+    <link rel="prev" href="../../app/api/userInfo.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="1.1.3"
+        data-chapter-title="jsbridge"
+        data-filepath="app/api/jsbridge.md"
+        data-basepath="../.."
+        data-revision="Wed Jun 01 2016 11:27:32 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        版本记录
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="app/intro.html">
+            
+                
+                    <a href="../../app/intro.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        APP接入
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="app/api/all.html">
+            
+                
+                    <a href="../../app/api/all.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        API
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="app/api/getToken.html">
+            
+                
+                    <a href="../../app/api/getToken.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.1.</b>
+                        
+                        获取TOKEN
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="app/api/userInfo.html">
+            
+                
+                    <a href="../../app/api/userInfo.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.2.</b>
+                        
+                        获取用户信息
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.1.3" data-path="app/api/jsbridge.html">
+            
+                
+                    <a href="../../app/api/jsbridge.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.3.</b>
+                        
+                        jsbridge
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="game/intro.html">
+            
+                
+                    <a href="../../game/intro.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        游戏接入
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="game/err/back.html">
+            
+                
+                    <a href="../../game/err/back.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        数据返回
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="game/err/index.html">
+            
+                
+                    <a href="../../game/err/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        错误码
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="game/sign/index.html">
+            
+                
+                    <a href="../../game/sign/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        签名
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="game/api/all.html">
+            
+                
+                    <a href="../../game/api/all.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        API
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.1" data-path="game/api/userInfo.html">
+            
+                
+                    <a href="../../game/api/userInfo.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.1.</b>
+                        
+                        获取用户信息
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2" data-path="game/api/setGameUrl.html">
+            
+                
+                    <a href="../../game/api/setGameUrl.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.2.</b>
+                        
+                        设置游戏地址
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.3" data-path="game/api/setProduct.html">
+            
+                
+                    <a href="../../game/api/setProduct.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.3.</b>
+                        
+                        设置商品信息
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.4" data-path="game/api/setNotifyUrl.html">
+            
+                
+                    <a href="../../game/api/setNotifyUrl.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.4.</b>
+                        
+                        设置支付回调地址
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.5" data-path="game/api/addWhite.html">
+            
+                
+                    <a href="../../game/api/addWhite.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.5.</b>
+                        
+                        添加支付白名单
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="game/api/pay.html">
+            
+                
+                    <a href="../../game/api/pay.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        支付发起
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="game/api/callback.html">
+            
+                
+                    <a href="../../game/api/callback.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                        支付回调
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../" >小熊游戏平台文档</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h4 id="&#x65B9;&#x6848;">&#x65B9;&#x6848;</h4>
+<p><a href="https://github.com/lzyzsd/JsBridge" target="_blank">https://github.com/lzyzsd/JsBridge</a></p>
+<p><div id="container" class="mermaid-container">
+    <div id="mermaid-holder"><div class="mermaid" data-processed="true"><svg id="mermaidChart0" width="759.1999969482422" xmlns="http://www.w3.org/2000/svg" height="187.89999771118164" viewBox="0 0 779.1999969482422 207.89999771118164"><style type="text/css" title="mermaid-svg-internal-css">/*  */
+#mermaidChart0 .node&gt;rect { ; }
+#mermaidChart0 .node text  { fill:#000; stroke:none; font-weight:300; font-family:"Helvetica Neue",Helvetica,Arial,sans-serf; font-size:14px; }
+#mermaidChart0 .edgeLabel text  { fill:#000; stroke:none; font-weight:300; font-family:"Helvetica Neue",Helvetica,Arial,sans-serf; font-size:14px; }
+#mermaidChart0 .cluster rect  { rx:4px; fill: rgb(255, 255, 222); rx: 4px; stroke: rgb(170, 170, 51); stroke-width: 1px; }
+.mermaid .label { color: rgb(51, 51, 51); }
+.node rect, .node circle, .node ellipse, .node polygon { fill: #ececff; stroke: #ccccff; stroke-width: 1px; }
+.edgepath .path { stroke: #333333; }
+text { font-family: 'trebuchet ms', verdana, arial; font-size: 14px; }
+/*  */
+</style><g><g class="output"><g class="clusters"/><g class="edgePaths"><g class="edgePath" style="opacity: 1; "><path class="path" d="M86.85496239222874,84.89999771118164L121,63.599998474121094L146,63.599998474121094" marker-end="url(#arrowhead34)" style="stroke: #333; stroke-width: 1.5px;fill:none"/><defs><marker id="arrowhead34" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="fill: #333"/></marker></defs></g><g class="edgePath" style="opacity: 1; "><path class="path" d="M222,63.599998474121094L247,63.599998474121094L272,63.599998474121094" marker-end="url(#arrowhead35)" style="stroke: #333; stroke-width: 1.5px;fill:none"/><defs><marker id="arrowhead35" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="fill: #333"/></marker></defs></g><g class="edgePath" style="opacity: 1; "><path class="path" d="M352,63.599998474121094L377,63.599998474121094L402.50000152587893,64.0999984741211" marker-end="url(#arrowhead36)" style="stroke: #333; stroke-width: 1.5px;fill:none"/><defs><marker id="arrowhead36" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="fill: #333"/></marker></defs></g><g class="edgePath" style="opacity: 1; "><path class="path" d="M483.9547568286853,58.3547568286852L564.1999969482422,45.599998474121094L651.1999969482422,45.599998474121094" marker-end="url(#arrowhead37)" style="stroke: #333; stroke-width: 1.5px;fill:none"/><defs><marker id="arrowhead37" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="fill: #333"/></marker></defs></g><g class="edgePath" style="opacity: 1; "><path class="path" d="M478.0985154557796,75.70148454422039L564.1999969482422,106.5999984741211L639.1999969482422,130.17999801635742" marker-end="url(#arrowhead38)" style="stroke: #333; stroke-width: 1.5px;fill:none"/><defs><marker id="arrowhead38" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="fill: #333"/></marker></defs></g><g class="edgePath" style="opacity: 1; "><path class="path" d="M639.1999969482422,151.49999771118163L564.1999969482422,159.89999771118164L445.5999984741211,159.89999771118164L377,159.89999771118164L312,159.89999771118164L247,159.89999771118164L184,159.89999771118164L121,159.89999771118164L77.89473684210526,120.89999771118164" marker-end="url(#arrowhead39)" style="stroke: #333; stroke-width: 1.5px;fill:none"/><defs><marker id="arrowhead39" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="fill: #333"/></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" style="opacity: 1; " transform=""><g transform="translate(0,0)" class="label"><text><tspan space="preserve" dy="1em" x="1"/></text></g></g><g class="edgeLabel" style="opacity: 1; " transform=""><g transform="translate(0,0)" class="label"><text><tspan space="preserve" dy="1em" x="1"/></text></g></g><g class="edgeLabel" style="opacity: 1; " transform=""><g transform="translate(0,0)" class="label"><text><tspan space="preserve" dy="1em" x="1"/></text></g></g><g class="edgeLabel" style="opacity: 1; " transform="translate(564.1999969482422,45.599998474121094)"><g transform="translate(-50,-8)" class="label"><text><tspan space="preserve" dy="1em" x="1">login &#x8FD4;&#x56DE;token</tspan></text></g></g><g class="edgeLabel" style="opacity: 1; " transform="translate(564.1999969482422,106.5999984741211)"><g transform="translate(-28.5,-8)" class="label"><text><tspan space="preserve" dy="1em" x="1">not login</tspan></text></g></g><g class="edgeLabel" style="opacity: 1; " transform="translate(312,159.89999771118164)"><g transform="translate(-15.5,-8)" class="label"><text><tspan space="preserve" dy="1em" x="1">login</tspan></text></g></g></g><g class="nodes"><g class="node" style="opacity: 1; " id="C" transform="translate(58,102.89999771118164)"><rect rx="0" ry="0" x="-38" y="-18" width="76" height="36"/><g class="label" transform="translate(0,0)"><g transform="translate(-28,-8)"><text><tspan space="preserve" dy="1em" x="1">&#x5E73;&#x53F0;&#x9875;&#x9762;</tspan></text></g></g></g><g class="node" style="opacity: 1; " id="D" transform="translate(184,63.599998474121094)"><rect rx="0" ry="0" x="-38" y="-18" width="76" height="36"/><g class="label" transform="translate(0,0)"><g transform="translate(-28,-8)"><text><tspan space="preserve" dy="1em" x="1">&#x6253;&#x5F00;&#x6E38;&#x620F;</tspan></text></g></g></g><g class="node" style="opacity: 1; " id="E" transform="translate(312,63.599998474121094)"><rect rx="0" ry="0" x="-40" y="-18" width="80" height="36"/><g class="label" transform="translate(0,0)"><g transform="translate(-30,-8)"><text><tspan space="preserve" dy="1em" x="1">getToken</tspan></text></g></g></g><g class="node" style="opacity: 1; " id="F" transform="translate(445.5999984741211,63.599998474121094)"><polygon points="43.6,0 87.2,-43.6 43.6,-87.2 0,-43.6" rx="5" ry="5" transform="translate(-43.6,43.6)"/><g class="label" transform="translate(0,0)"><g transform="translate(-26.5,-8)"><text><tspan space="preserve" dy="1em" x="1">JsBridge</tspan></text></g></g></g><g class="node" style="opacity: 1; " id="G" transform="translate(689.1999969482422,45.599998474121094)"><rect rx="0" ry="0" x="-38" y="-18" width="76" height="36"/><g class="label" transform="translate(0,0)"><g transform="translate(-28,-8)"><text><tspan space="preserve" dy="1em" x="1">&#x6253;&#x5F00;&#x6E38;&#x620F;</tspan></text></g></g></g><g class="node" style="opacity: 1; " id="H" transform="translate(689.1999969482422,145.89999771118164)"><rect rx="0" ry="0" x="-50" y="-18" width="100" height="36"/><g class="label" transform="translate(0,0)"><g transform="translate(-40,-8)"><text><tspan space="preserve" dy="1em" x="1">APP&#x767B;&#x5F55;&#x754C;&#x9762;</tspan></text></g></g></g></g></g></g></svg></div></div>
+  </div></p>
+<h4 id="java-&#x5B9E;&#x73B0;">java &#x5B9E;&#x73B0;</h4>
+<pre><code>webView.registerHandler(&quot;getToken&quot;, new BridgeHandler() {
+    @Override
+    public void handler(String data, CallBackFunction function) {
+       function.onCallBack(&quot;{\&quot;code\&quot;:0,\&quot;res\&quot;:{\&quot;token\&quot;:\&quot;sa111e2de733i\&quot;,\&quot;nonce\&quot;:\&quot;1234567890123456\&quot;}}&quot;);
+    }
+
+});
+
+&#x5DF2;&#x7ECF;&#x767B;&#x5F55;&#x8FD4;&#x56DE; token,nonce
+&#x672A;&#x767B;&#x5F55; &#x8FD4;&#x56DE; msg &#x4E3A;  &quot;{\&quot;code\&quot;:1004,\&quot;msg\&quot;:\&quot;not login\&quot;}&quot;
+</code></pre><h4 id="js&#x5B9E;&#x73B0;">js&#x5B9E;&#x73B0;</h4>
+<pre><code>function connectWebViewJavascriptBridge(callback) {
+    if (window.WebViewJavascriptBridge) {
+        callback(WebViewJavascriptBridge)
+    } else {
+        document.addEventListener(
+            &apos;WebViewJavascriptBridgeReady&apos;
+            , function() {
+                callback(WebViewJavascriptBridge)
+            },
+            false
+        );
+    }
+}
+
+connectWebViewJavascriptBridge(function(bridge) {
+    bridge.init(function(message, responseCallback) {
+    });
+})
+
+
+function getToken() {
+    window.WebViewJavascriptBridge.callHandler(
+        &apos;getToken&apos;
+        ,&apos;&apos;
+        , function(responseData) {
+           var json = eval(&quot;(&quot;+responseData+&quot;)&quot;);
+           if(json.code==0) {
+                   console.log(json.res.token)
+           }
+
+        }
+    );
+}
+</code></pre>
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../../app/api/userInfo.html" class="navigation navigation-prev " aria-label="Previous page: 获取用户信息"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../../game/intro.html" class="navigation navigation-next " aria-label="Next page: 游戏接入"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../../gitbook/app.js"></script>
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-book-summary-scroll-position-saver/book-summary-scroll-position-saver.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"book-summary-scroll-position-saver":{},"prism":{},"mermaid":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
