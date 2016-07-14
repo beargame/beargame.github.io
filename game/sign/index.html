@@ -53,7 +53,7 @@
         data-chapter-title="签名"
         data-filepath="game/sign/README.md"
         data-basepath="../.."
-        data-revision="Thu Jul 14 2016 15:28:51 GMT+0800 (CST)"
+        data-revision="Thu Jul 14 2016 18:49:48 GMT+0800 (CST)"
         data-innerlanguage="">
     
 
@@ -414,9 +414,20 @@
 <pre><code>appId 1
 data 123
 sign = md5(appId=1&amp;data=123APP_SECREET)
-</code></pre><pre><code>token j832323ab
-nonce 1234567890123456
-sign = md5(token=j832323&amp;nonce=1234567890123456APP_SECREET)
+</code></pre><pre><code>appId 15
+cash 1
+extra 82 
+game_uid 83219030
+isTest 1 nonce_str b87dc673827a0e40b37e902453877490 
+order_id 1468492815830533004085 
+product_id 301 
+result SUCCESS 
+transaction_id
+4004512001201607148975578288 
+uid bear:1
+
+
+sign = md5(appId=15&amp;cash=1&amp;extra=82&amp;game_uid=83219030&amp;isTest=1&amp;nonce_str=b87dc673827a0e40b37e902453877490&amp;order_id=1468492815830533004085&amp;product_id=301&amp;result=SUCCESS&amp;transaction_id=4004512001201607148975578288&amp;uid=bear:1 APP_SECREET)
 </code></pre>
                     
                     </section>
