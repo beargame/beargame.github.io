@@ -51,7 +51,7 @@
         data-chapter-title="支付回调"
         data-filepath="game/api/callback.md"
         data-basepath="../.."
-        data-revision="Mon Jul 18 2016 13:20:00 GMT+0800 (CST)"
+        data-revision="Mon Jul 18 2016 14:02:47 GMT+0800 (CST)"
         data-innerlanguage="">
     
 
@@ -429,19 +429,19 @@
 <td>SUCCESS &#x4E3A;&#x6210;&#x529F; &#x5176;&#x5B83;&#x4E3A;&#x5931;&#x8D25;</td>
 </tr>
 <tr>
-<td>uid</td>
-<td>string</td>
-<td>&#x5E73;&#x53F0;&#x7528;&#x6237;ID</td>
-</tr>
-<tr>
 <td>cash</td>
 <td>int</td>
 <td>&#x652F;&#x4ED8;&#x91D1;&#x989D; &#xFF08;&#x5355;&#x4F4D;&#x5206;&#xFF09;</td>
 </tr>
 <tr>
-<td>transaction_id</td>
+<td>uid</td>
 <td>string</td>
-<td>&#x652F;&#x4ED8;&#x6E20;&#x9053;&#x8BA2;&#x5355;&#x53F7;</td>
+<td>&#x5E73;&#x53F0;&#x7528;&#x6237;ID</td>
+</tr>
+<tr>
+<td>game_uid</td>
+<td>string</td>
+<td>&#x5E73;&#x53F0;&#x7528;&#x6237;ID</td>
 </tr>
 <tr>
 <td>order_id</td>
@@ -449,9 +449,19 @@
 <td>&#x5E73;&#x53F0;&#x8BA2;&#x5355;&#x53F7;</td>
 </tr>
 <tr>
+<td>transaction_id</td>
+<td>string</td>
+<td>&#x652F;&#x4ED8;&#x6E20;&#x9053;&#x8BA2;&#x5355;&#x53F7;</td>
+</tr>
+<tr>
 <td>product_id</td>
 <td>int</td>
 <td>&#x5546;&#x54C1;ID</td>
+</tr>
+<tr>
+<td>extra</td>
+<td>string</td>
+<td>&#x81EA;&#x5B9A;&#x4E49;&#x53C2;&#x6570; 64&#x4F4D;&#x4EE5;&#x5185;</td>
 </tr>
 <tr>
 <td>appId</td>
@@ -462,11 +472,6 @@
 <td>isTest</td>
 <td>int</td>
 <td>&#x662F;&#x5426;&#x4E3A;&#x6D4B;&#x8BD5; 1&#x4E3A;&#x6D4B;&#x8BD5;</td>
-</tr>
-<tr>
-<td>extra</td>
-<td>string</td>
-<td>&#x81EA;&#x5B9A;&#x4E49;&#x53C2;&#x6570; 64&#x4F4D;&#x4EE5;&#x5185;</td>
 </tr>
 <tr>
 <td>nonce_str</td>
