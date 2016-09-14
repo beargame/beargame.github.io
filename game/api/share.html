@@ -53,7 +53,7 @@
         data-chapter-title="分享"
         data-filepath="game/api/share.md"
         data-basepath="../.."
-        data-revision="Thu Sep 01 2016 16:13:05 GMT+0800 (CST)"
+        data-revision="Wed Sep 14 2016 16:14:21 GMT+0800 (CST)"
         data-innerlanguage="">
     
 
@@ -431,57 +431,11 @@
        console.log(e.data.tp)
        console.log(e.data.link)
 })
-</code></pre><h4 id="&#x5206;&#x4EAB;&#x51FA;&#x6765;&#x7684;&#x94FE;&#x63A5;&#xFF0C;&#x6709;&#x65B0;&#x7528;&#x6237;&#x70B9;&#x51FB;&#x8FDB;&#x5165;&#x6E38;&#x620F;&#xFF0C;&#x5C06;&#x8BB0;&#x5F55;&#x5230;getshareinfo&#x91CC;&#x9762;">&#x5206;&#x4EAB;&#x51FA;&#x6765;&#x7684;&#x94FE;&#x63A5;&#xFF0C;&#x6709;&#x65B0;&#x7528;&#x6237;&#x70B9;&#x51FB;&#x8FDB;&#x5165;&#x6E38;&#x620F;&#xFF0C;&#x5C06;&#x8BB0;&#x5F55;&#x5230;GetShareInfo&#x91CC;&#x9762;</h4>
-<h3 id="getshareinfo-post">GetShareInfo /POST</h3>
-<h4 id="&#x5730;&#x5740;">&#x5730;&#x5740;</h4>
-<pre><code> http://open.ibeargame.com/GetShareInfo
-</code></pre><h4 id="&#x53C2;&#x6570;">&#x53C2;&#x6570;</h4>
-<table>
-<thead>
-<tr>
-<th>&#x5B57;&#x6BB5;</th>
-<th>&#x7C7B;&#x578B;</th>
-<th>&#x63CF;&#x8FF0;</th>
-<th>&#x5FC5;&#x987B;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>appId</td>
-<td>int</td>
-<td>&#x6E38;&#x620F;ID</td>
-<td>&#x662F;</td>
-</tr>
-<tr>
-<td>openid</td>
-<td>string</td>
-<td>&#x6E38;&#x620F;&#x7528;&#x6237;ID</td>
-<td>&#x662F;</td>
-</tr>
-<tr>
-<td>start</td>
-<td>int</td>
-<td>&#x5F00;&#x59CB;&#x65F6;&#x95F4;&#x6233;</td>
-<td>&#x5426;</td>
-</tr>
-<tr>
-<td>end</td>
-<td>int</td>
-<td>&#x7ED3;&#x675F;&#x65F6;&#x95F4;&#x6233;</td>
-<td>&#x5426;</td>
-</tr>
-<tr>
-<td>sign</td>
-<td>string</td>
-<td>&#x7B7E;&#x540D;</td>
-<td>&#x662F;</td>
-</tr>
-</tbody>
-</table>
-<h4 id="&#x8FD4;&#x56DE;">&#x8FD4;&#x56DE;</h4>
-<p>&#x8FD4;&#x56DE;&#x9519;&#x8BEF;&#x7801;</p>
+</code></pre><h4 id="&#x5206;&#x4EAB;&#x51FA;&#x6765;&#x7684;&#x94FE;&#x63A5;&#xFF0C;&#x6709;&#x65B0;&#x7528;&#x6237;&#x70B9;&#x51FB;&#x8FDB;&#x5165;&#x6E38;&#x620F;&#xFF0C;&#x5C06;&#x8BB0;&#x5F55;&#x5230;shareinfo&#x91CC;&#x9762;">&#x5206;&#x4EAB;&#x51FA;&#x6765;&#x7684;&#x94FE;&#x63A5;&#xFF0C;&#x6709;&#x65B0;&#x7528;&#x6237;&#x70B9;&#x51FB;&#x8FDB;&#x5165;&#x6E38;&#x620F;&#xFF0C;&#x5C06;&#x8BB0;&#x5F55;&#x5230;ShareInfo&#x91CC;&#x9762;</h4>
+<p>shareInfo &#x5C06;&#x5728; UserInfo&#x91CC;&#x9762;&#x9644;&#x52A0;
+&#x5982;&#x679C;&#x7528;&#x6237;&#x4E0D;&#x662F;&#x901A;&#x8FC7;&#x5206;&#x4EAB;&#x70B9;&#x51FB;&#x8FDB;&#x5165;&#x6E38;&#x620F;&#x7684;&#xFF0C;&#x6CA1;&#x6709;&#x4EE5;&#x4E0B;&#x5B57;&#x6BB5;</p>
 <h4 id="&#x683C;&#x5F0F;">&#x683C;&#x5F0F;</h4>
-<pre><code>[{&quot;openid&quot;:&quot;df45rttrggg&quot;,&quot;time&quot;:1234567890},{&quot;openid&quot;:&quot;df45rttrggg&quot;,&quot;time&quot;:1234567890}]
+<pre><code>{&quot;shareOpenId&quot;:&quot;df45rttrggg&quot;,&quot;shareTime&quot;:1234567890,&quot;enterTime&quot;:1234567890}
 </code></pre><table>
 <thead>
 <tr>
@@ -492,14 +446,19 @@
 </thead>
 <tbody>
 <tr>
-<td>openid</td>
+<td>shareOpenId</td>
 <td>string</td>
-<td>&#x6E38;&#x620F;&#x7528;&#x6237;ID</td>
+<td>&#x5206;&#x4EAB;&#x7684;&#x6E38;&#x620F;&#x7528;&#x6237;ID</td>
 </tr>
 <tr>
-<td>time</td>
+<td>shareTime</td>
 <td>int</td>
 <td>&#x94FE;&#x63A5;&#x5206;&#x4EAB;&#x51FA;&#x7684;&#x65F6;&#x95F4;</td>
+</tr>
+<tr>
+<td>enterTime</td>
+<td>int</td>
+<td>&#x7528;&#x6237;&#x8FDB;&#x5165;&#x7684;&#x65F6;&#x95F4;</td>
 </tr>
 </tbody>
 </table>
